@@ -1,5 +1,6 @@
-Article model - 
+The front-end: Show an article 
 
-- Read
-- Update
-- Delete
+- Route
+- Controller#action
+- Model/db table
+- View
