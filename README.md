@@ -1,4 +1,4 @@
-The front-end: Show an article 
+The front-end: Listing articles 
 
 - Route
 - Controller#action
