@@ -1,4 +1,4 @@
-The front-end: Listing articles 
+The front-end: Creating articles 
 
 - Route
 - Controller#action
