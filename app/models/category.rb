@@ -1,0 +1,3 @@
+class Category < ApplicationRecord
+
+end
