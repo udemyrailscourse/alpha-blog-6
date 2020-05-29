@@ -7,6 +7,9 @@
             <% if article.user %>
               by <%= link_to article.user.username, user_path(article.user) %>
             <% end %>
+            <% if article.categories.any? %>
+              <div class="mt-2"><%= render article.categories %></div> 
+            <% end %>
           </div>
           <div class="card-body">
             <h5 class="card-title"><%= link_to article.title, article_path(article), class: "text-success" %></h5>
